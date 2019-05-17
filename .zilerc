@@ -1,0 +1,43 @@
+tab-width = 4
+fill-column = 72
+text-mode-auto-fill = false
+
+display-time = true
+display-time-format = "%I:%M%p"
+
+show-eob-marker = true
+highlight-region = true
+
+backup-method = none
+backup-with-directory = false
+
+expand-tabs = true
+colors = true
+status-line-color = cyan
+
+# Font Lock fonts
+# Available colors are:
+#     black, blue, cyan, green, magenta, red, white, yellow,
+#     light-black, light-blue, light-cyan, light-green, light-magenta,
+#     light-red, light-white, light-yellow
+font-character = green                  # [default: green]
+font-character-delimiters = white       # [default: white]
+font-comment = red                      # [default: red]
+font-directive = blue                   # [default: blue]
+font-identifier = white                 # [default: white]
+font-keyword = magenta                  # [default: magenta]
+font-number = cyan                      # [default: cyan]
+font-other = white                      # [default: white]
+font-string = green                     # [default: green]
+font-string-delimiters = white          # [default: white]
+
+# Enable automatic Font Lock Mode for C/C++/sh-scripts [default: true]
+# Font Lock can also be toggled using the `M-x font-lock-mode' command.
+auto-font-lock = true
+
+# Enable automatic Font Lock refresh [default: true]
+# If enabled, the file will be reparsed by Font Lock on every C-l press.
+# This may be disabled on slow machines.
+auto-font-lock-refresh = true
+
+beep = false
