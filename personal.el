@@ -12,6 +12,13 @@
 ;; disable default theme
 (disable-theme 'zenburn)
 
+;; neotree setup with all-the-icons
+(require 'all-the-icons)
+(require 'neotree)
+(setq neo-window-fixed-size nil)
+(setq neo-window-width 25)
+(neotree)
+
 ;; autopair utilize globally
 (require 'autopair)
 (autopair-global-mode 1)
